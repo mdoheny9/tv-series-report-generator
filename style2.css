@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.label {
+    color: white;
+    font-family: "Arial Black", "Arial Bold", Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-left: 4px solid #f5c518;
+    border-radius: 4px 4px 4px 4px;
+    padding-left: 12px;
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid white;
+    margin: 20px;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 4px 8px;
+    text-align: center;
+    color: white;
+    border-radius: 0;
+}
+
+th {
+    background-color: #f5c518;
+    color: black;
+    font-weight: bold;
+    font-family: "Arial Black", "Arial Bold", Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+tr:nth-child(even) td {
+    background-color: #333333;
+}
+
+tr:nth-child(odd) td {
+    background-color: #333333;
+}
+
+tr:nth-child(even) td:first-child {
+    border-radius: 6px 0 0 6px;
+}
+
+tr:nth-child(even) td:last-child {
+    border-radius: 0 6px 6px 0;
+}
+
+tr:nth-child(odd) td:first-child {
+    border-radius: 6px 0 0 6px;
+}
+
+tr:nth-child(odd) td:last-child {
+    border-radius: 0 6px 6px 0;
+}
