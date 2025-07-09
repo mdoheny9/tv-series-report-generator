@@ -18,7 +18,7 @@ p {
     font-weight: bold;
     letter-spacing: 0.5px;
     border-left: 4px solid #f5c518;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 4px;
     padding-left: 12px;
     display: inline-block;
 }
