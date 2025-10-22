@@ -1,6 +1,6 @@
 # TV Series Report Generator 🎬
 
-A command-line Python program that connects to a PostgreSQL database and generates a HTML report for a user-input TV series. Built using `psycopg2`, the program follows best practices for input handling and SQL query security. 
+A command-line Python program that generates a HTML report for a user-input TV series based off of information from the PostgreSQL IMDB database. Built using `psycopg2`, the program follows best practices for input handling and SQL query security. 
 
 Developed as a project for **CSC370 (Database Systems)** at UVic. 
 
@@ -23,11 +23,11 @@ run the program with:
 python3 ./series.py '<series-name>' > output.html
 ```
 
-## Example:
+### Example:
 ```bash
 python3 ./series.py 'Young Sheldon' > output.html
 ```
 
-This will generate an HTML report like the one below: 
+The above command will generate an HTML report in output.html like the one displayed below.
 
 ![Screenshot of Young Sheldon HTML report](https://github.com/user-attachments/assets/61d942a1-edee-4c5f-93a0-efac24bf8bcb)
